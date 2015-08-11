@@ -17,6 +17,20 @@ You should see something like this:
 
 ![Starting Screen](img/postman-starting-screen.png)
 
+## What is an HTTP request?
+
+At a high level, an HTTP request has two main parts: the **method** and **URL**.
+
+Here are some examples, some of which we will explain more later:
+
+```
+GET     /blog-posts
+POST    /blog-posts
+GET     /blog-posts/1
+PUT     /blog-posts/1
+DELETE  /blog-posts/1
+```
+
 ## My First GET Request
 
 A GET request is essentially **asking** for data; we expect to receive some data in the **response body**.
