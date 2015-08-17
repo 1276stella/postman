@@ -78,8 +78,6 @@ Now let's inspect the response. You should already see something like the follow
 
 As you can see, the response body looks like [JSON](http://library.makersquare.com/dictionary/json). However, it doesn't *actually* look like this; what you see is the "pretty" version, as indicated by the selected tab.
 
-more motivations: To keep the concepts concrete, the lesson takes something they already know (jQuery) and gets them to build the same app two different ways
-
 Click the `Raw` sub-tab. See the new view? It's the same data, but it it's no longer "pretty". Instead, it's the **raw response** the server actually gave Postman – a simple string. Although this string does in fact *represent* JSON, we can't *use* it as JSON until we parse it as such. For example, if we wanted to play with this data using JavaScript, we would need to run `JSON.parse`, which receives a string and returns an object.
 
 ## The Response Headers
