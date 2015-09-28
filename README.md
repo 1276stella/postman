@@ -141,7 +141,7 @@ Let's make a POST request in Postman:
 
 What's that? It didn't work! 400 is a [status code](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1) - a special code that the server sends to the client, indicating the kind of response it is sending. In this case, the status codeis `400`, which means `Bad Request`. In other words, our request was no good, and the server says it cannot work with it.
 
-Ok, so why didn't it work? To put it briefly, we need to set our `Content-Type` **request header**. Basically, we are sending a string that represents JSON, *but the server doesn't know that*. Howver, we can tell the server this fact by setting our `Content-Type` header to `application/json`.
+Ok, so why didn't it work? To put it briefly, we need to set our `Content-Type` **request header**. Basically, we are sending a string that represents JSON, *but the server doesn't know that*. However, we can tell the server this fact by setting our `Content-Type` header to `application/json`.
 
 ### Headers
 
